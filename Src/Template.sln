@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{7E3B07F8-DB76-443C-882E-737C010A4467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{15BC4CFF-00C5-4392-B686-148EB93B6EB7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Shared", "Shared\Shared.shproj", "{DB85C0EE-710D-425F-BF3D-EB2298F9EE80}"
+EndProject
+Global
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E3B07F8-DB76-443C-882E-737C010A4467}.CompileCode|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E3B07F8-DB76-443C-882E-737C010A4467}.CompileCode|Any CPU.Build.0 = Debug|Any CPU
+		{15BC4CFF-00C5-4392-B686-148EB93B6EB7}.CompileCode|Any CPU.ActiveCfg = Debug|Any CPU
+		{15BC4CFF-00C5-4392-B686-148EB93B6EB7}.CompileCode|Any CPU.Build.0 = Debug|Any CPU
+		{DB85C0EE-710D-425F-BF3D-EB2298F9EE80}.CompileCode|Any CPU.ActiveCfg = Build|Any CPU
+		{DB85C0EE-710D-425F-BF3D-EB2298F9EE80}.CompileCode|Any CPU.Build.0 = Build|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04407064-500D-4A3C-81C3-47C09A697094}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Shared.projitems*{db85c0ee-710d-425f-bf3d-eb2298f9ee80}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CompileCode|Any CPU = CompileCode|Any CPU
+	EndGlobalSection
+EndGlobal
